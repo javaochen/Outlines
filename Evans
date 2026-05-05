@@ -1,0 +1,506 @@
+
+中文版目录
+第一章 引言 1
+1.1 偏微分方程 1
+1.2 例 2
+1.2.1 单个偏微分方程 (2) 1.2.2 偏微分方程组 (4) 2
+1.3 学习 PDE 的计划 5
+1.3.1 适定问题，经典解 (5) 1.3.2 弱解和正则性 (6) 1.3.3 特有的困难 (6) 5
+1.4 综述 7
+1.5 习题 8
+1.6 参考文献 9
+第一部分 解的表示形式 11
+第二章 四个重要的偏微分方程 13
+2.1 传输方程 13
+2.1.1 初值问题 (13) 2.1.2 非齐次问题 (14) 13
+2.2 Laplace 方程 14
+2.2.1 基本解 (15) 2.2.2 平均值公式 (18) 2.2.3 调和函数的性质 (19) 2.2.4 Green 函数 (23) 2.2.5 能量方法 (28) 14
+2.3 热传导方程 30
+2.3.1 基本解 (30) 2.3.2 平均值公式 (35) 2.3.3 解的性质 (37) 2.3.4 能量方法 (42) 30
+2.4 波动方程 43
+2.4.1 由球面平均得解 (44) 2.4.2 非齐次问题 (53) 2.4.3 能量方法 (54) 43
+2.5 习题 56
+2.6 参考文献 60
+第三章 非线性一阶 PDE 61
+3.1 完全积分，包络 61
+3.1.1 完全积分 (61) 3.1.2 从包络得到新解 (63) 61
+3.2 特征 64
+3.2.1 特征 ODE 的推导 (64) 3.2.2 例 (66) 3.2.3 边界条件 (68) 3.2.4 局部解 (70) 64
+3.2.5 应用 (72) 72
+3.3 Hamilton-Jacobi 方程组入门 76
+3.3.1 变分学，Hamilton ODE (77) 3.3.2 Legendre 变换，Hopf-Lax 公式 (80) 3.3.3 弱解，唯一性 (85) 76
+3.4 守恒律入门 90
+3.4.1 激波，熵条件 (90) 3.4.2 Lax-Oleinik 公式 (95) 3.4.3 弱解，唯一性 (98) 3.4.4 Riemann 问题 (102) 3.4.5 长期行为 (103) 90
+3.5 107
+3.6 习题 110
+参考文献 110
+第四章 解的其他表示方法 111
+4.1 分离变量法 111
+4.1.1 例 (111) 4.1.2 应用：Turing 不稳定性 (114) 111
+4.2 相似解 116
+4.2.1 平面波，行波，孤子 (117) 4.2.2 尺度变换下的相似性 (122) 116
+4.3 变换方法 124
+4.3.1 Fourier 变换 (124) 4.3.2 Radon 变换 (130) 4.3.3 Laplace 变换 (134) 124
+4.4 化非线性 PDE 为线性 136
+4.4.1 Cole-Hopf 变换 (136) 4.4.2 势函数 (137) 4.4.3 速端曲线与 Legendre 变换 (138) 136
+4.5 渐近方法 140
+4.5.1 奇异摄动 (140) 4.5.2 Laplace 方法 (143) 4.5.3 几何光学，驻定相 (144) 4.5.4 均匀化 (151) 140
+4.6 幂级数 154
+4.6.1 非特征曲面 (154) 4.6.2 实解析函数 (157) 4.6.3 Cauchy-Kovalevskaya 定理 (158) 154
+4.7 习题 162
+4.8 参考文献 165
+第二部分 线性偏微分方程理论 167
+第五章 Sobolev 空间 169
+5.1 Hölder 空间 169
+5.2 Sobolev 空间 170
+5.2.1 弱导数 (171) 5.2.2 Sobolev 空间的定义 (172) 5.2.3 初等性质 (174) 170
+5.3 逼近 176
+5.3.1 用光滑函数内部逼近 (176) 5.3.2 用光滑函数逼近 (176) 5.3.3 用光滑函数全局逼近 (177) 176
+5.4 扩张 178
+5.5 迹 181
+5.6 Sobolev 不等式 184
+5.6.1 Gagliardo-Nirenberg-Sobolev 不等式 (184) 5.6.2 Morrey 不等式 (187) 5.6.3 一般的 Sobolev 不等式 (190) 184
+5.7 紧性 191
+5.8 附加课题 193
+5.8.1 Poincaré 不等式 (193) 5.8.2 差商 (195) 5.8.3 几乎处处可微性 (197) 5.8.4 Hardy 不等式 (198) 5.8.5 Fourier 变换法 (199) 193
+5.9 其他函数空间 200
+5.9.1 H−1空间 (200) 5.9.2 含有时间的空间 (201) 200
+5.10 习题 205
+5.11 参考文献 207
+第六章 二阶椭圆型方程 208
+6.1 定义 208
+6.1.1 椭圆型方程 (208) 6.1.2 弱解 (209) 208
+6.2 弱解的存在性 210
+6.2.1 Lax-Milgram 定理 (210) 6.2.2 能量估计 (212) 6.2.3 Fredholm 二择一律 (214) 210
+6.3 正则性 218
+6.3.1 内部正则性 (218) 6.3.2 边界正则性 (223) 218
+6.4 最大值原理 229
+6.4.1 弱最大值原理 (229) 6.4.2 强最大值原理 (231) 6.4.3 Harnack 不等式 (234) 229
+6.5 特征值与特征函数 236
+6.5.1 对称椭圆算子的特征值 (236) 6.5.2 非对称椭圆算子的特征值 (240) 236
+6.6 习题 243
+6.7 参考文献 246
+第七章 线性发展方程 248
+7.1 二阶抛物型方程 248
+7.1.1 定义 (248) 7.1.2 弱解的存在性 (250) 7.1.3 正则性 (253) 7.1.4 最大值原理 (260) 248
+7.2 二阶双曲型方程 266
+7.2.1 定义 (266) 7.2.2 弱解的存在性 (268) 7.2.3 正则性 (272) 7.2.4 扰动的传播 (277) 266
+7.2.5 两个自变量的方程 (279) 279
+7.3 一阶双曲组 280
+7.3.1 定义 (281) 7.3.2 对称双曲组 (282) 7.3.3 常系数双曲组 (286) 280
+7.4 半群理论 289
+7.4.1 定义和基本性质 (289) 7.4.2 生成压缩半群 (293) 7.4.3 应用 (294) 289
+7.5 习题 297
+7.6 参考文献 299
+第三部分 非线性偏微分方程理论 301
+第八章 变分法 303
+8.1 引言 303
+8.1.1 基本思想 (303) 8.1.2 一阶变分，Euler-Lagrange 方程 (303) 8.1.3 二阶变分 (306) 8.1.4 方程组 (307) 303
+8.2 最小的能量存在性 310
+8.2.1 强制性，下半连续性 (310) 8.2.2 凸性 (311) 8.2.3 Euler-Lagrange 方程的弱解 (314) 8.2.4 方程组 (316) 8.2.5 局部极小 (319) 310
+8.3 正则性 320
+8.3.1 二阶导数估计 (321) 8.3.2 更高正则性的注 (322) 320
+8.4 约束 323
+8.4.1 非线性特征值问题 (324) 8.4.2 单侧约束，变分不等式 (326) 8.4.3 调和映射 (328) 8.4.4 不可压性 (330) 323
+8.5 临界点 332
+8.5.1 山路定理 (333) 8.5.2 对半线性椭圆型 PDE 的应用 (336) 332
+8.6 不变量，Noether 定理 339
+8.6.1 不变变分问题 (340) 8.6.2 Noether 定理 (340) 339
+8.7 习题 345
+8.8 参考文献 345
+第九章 非变分技术 350
+9.1 单调方法 350
+9.2 不动点方法 354
+9.2.1 Banach 不动点定理 (354) 9.2.2 Schauder，Schaefer 不动点定理 (357) 354
+9.3 上、下解方法 360
+9.4 解的不存在性 363
+9.4.1 破裂 (363) 9.4.2 Derrick-Pohožaev 恒等式 (365) 363
+9.5 解的几何性质 367
+9.5.1 星形水平集 (367) 9.5.2 径向对称性 (368) 367
+9.6 梯度流 371
+9.6.1 Hilbert 空间上的凸函数 (371) 9.6.2 次微分与非线性半群 (375) 9.6.3 应用 (379) 371
+9.7 习题 380
+9.8 参考文献 383
+第十章 Hamilton-Jacobi 方程 384
+10.1 引言，黏性解 384
+10.1.1 定义 (385) 10.1.2 相容性 (386) 384
+10.2 唯一性 389
+10.3 控制理论，动态规划 391
+10.3.1 最优控制理论初步 (392) 10.3.2 动态规划 (393) 10.3.3 Hamilton-Jacobi-Bellman 方程 (394) 10.3.4 再谈 Hopf-Lax 公式 (398) 391
+10.4 习题 400
+10.5 参考文献 403
+第十一章 守恒律组 404
+11.1 引言 404
+11.1.1 积分解 (406) 11.1.2 行波，双曲组 (407) 404
+11.2 Riemann 问题 412
+11.2.1 简单波 (412) 11.2.2 稀疏波 (413) 11.2.3 激波，接触不连续线 (414) 11.2.4 Riemann 问题的局部解 (419) 412
+11.3 两个守恒律的方程组 421
+11.3.1 Riemann 不变量 (421) 11.3.2 光滑解的不存在性 (424) 421
+11.4 熵判据 425
+11.4.1 消黏，行波 (425) 11.4.2 熵/熵通量配对 (428) 11.4.3 标量守恒律的唯一性 (430) 425
+11.5 习题 433
+11.6 参考文献 435
+第十二章 非线性波动方程 437
+12.1 引言 437
+12.1.1 能量守恒 (437) 12.1.2 有限传播速率 (438) 437
+12.2 解的存在性 439
+12.2.1 Lipschitz 非线性 (440) 12.2.2 短时存在性 (441) 439
+12.3 半线性波动方程 444
+12.3.1 符号条件 (445) 12.3.2 三维空间 (447) 12.3.3 亚临界指数非线性 (449) 444
+12.4 临界指数非线性 451
+12.5 解的不存在性 456
+12.5.1 负能量时的不存在性 (456) 12.5.2 小初始数据时的不存在性 (457) 456
+12.6 459
+12.7 参考文献 462
+习题 463
+附录
+A. 记号 463
+A.1 数组及其运算 (463) A.2 几何记号 (464) A.3 函数记号 (465) A.4 向量值函数 (468) A.5 估计的记号 (470) A.6 对记号的评论 (470) 463
+B. 不等式 471
+B.1 凸函数 (471) B.2 有用的不等式 (471) 471
+C. 微积分 475
+C.1 边界 (475) C.2 Gauss-Green 定理 (476) C.3 极坐标，余面积公式 (477) C.4 动区域 (478) C.5 卷积与光滑 (478) C.6 反函数定理 (480) C.7 隐函数定理 (481) C.8 一致收敛 (482) 475
+D. 线性泛函分析 482
+D.1 Banach 空间 (482) D.2 Hilbert 空间 (483) D.3 有界线性算子 (484) D.4 弱收敛 (485) D.5 紧算子，Fredholm 理论 (486) D.6 对称算子 (488) 482
+E. 测度论 490
+E.1 Lebesgue 测度 (490) E.2 可测函数与积分 (490) E.3 积分收敛定理 (491) E.4 微分 (492) E.5 Banach 空间值函数 (492) 490
+参考文献 494
+名词索引 499
+中文版名词
+
+符号
+, 333 激波, 419 简单波, 412 , 80, 214 波, 104 , 185 , 191
+B
+Bessel 势, 127  Brouwer 不动点定理, 309  伴随矩阵, 288, 463  伴随双线性型, 214  伴随算子, 245  伴随问题, 298  半凹, 86  包络, 63  本质上确界, 491  变分法, 30, 303  变分公式化, 210  变换
+Bäcklund 变换, 461 ColeHopf 变换, 137Fenchel 变换, Fourier 逆变换, 124；Kelvin 变换, 57； Legendre 变换, 80, 139；Radon 变换, 130
+  双曲 Kelvin 变换, 343, 461
+波动方程 一维波动方程的 D'Alembert 公式, 45；波前, 117  波数, 117  补偿法, 380  不变量  Galileo 不变量, 462  不等式
+Cauchy-Schwarz 不等式, 483；Harnack 不等式, 22, 261；Jensen 不等式, 471；Morrey 不等式, 188；Poincaré 不等式, 187；变分不等式，327；插值不等式, 205, 206；迹不等式, 199, 206；三角不等式, 482；增长不等式, 39
+C
+Cauchy 数据, 154；Cauchy 序列, 482；差商, 195；常微分方程组, 7；常微分方程组的特征方程, 7；乘子, 140；初值问题 非齐次波动方程的初值问题, 53；传输, 209；传输方程；传输方程的初值问题, 13；传输方程的弱解, 14；次微分, 109；催化剂, 116；存在性, 6
+D
+Dirichlet 边值条件, 208；Dirichlet 原理, 29；单侧约束, 326；单位分解, 177, 205；单位球的体积, 465；单位球面的表面积, 465；单位球上的 Green 函数, 27；单位时间的运行费用, 392；单位外法向量场, 475；导数 法向导数, 476；到球面上的调和映射, 328；等价形, 189；等距同构, 337；第二典范型, 280；第一典范型, 280；点谱, 484；定理 Banach 不动点定理, 354, 355；CauchyKovalevskaya 定理, 158；Mazur 定理, 485；Plancherel 定理, 124；Riesz 表示定理, 485；闭图像定理, 484；多项式定理, 157；山路定理, 335；定律 Bernoulli 定律, 138；Weyl 定律, 237；动能, 405；动平面, 370；动态规划, 391；度, 346；短时存在性, 442；多重指标, 1, 467；多凸, 318
+E
+二阶变分, 306
+F
+法 消黏法, 384；反馈控制, 398；反射 反射原理, 57；高阶反射, 179；反演, 27；泛函 费用泛函, 392；能量泛函, 29；有界线性泛函, 484；作用泛函, 77；范数, 170, 172, 482, 483；方程 Airy 方程, 118；Burgers 方程, 137；Euler-Lagrange 方程, 304；Euler-Poisson-Darboux 方程, 47；Helmholtz 方程, 216；Klein-Gordon 方程, 117, 437, 459；Laplace 方程, 14；Poisson 方程, 244；Schrödinger 方程, 117；Yamabe 方程, 381；半线性波动方程, 342；波动方程, 43；传输方程, 13；电报方程, 129, 299；发展方程, 248；非齐次波动方程, 44；非线性 Poisson 方程, 305；极小曲面方程, 139, 306；拟线性波动方程, 405；渗流方程, 113；双调和方程, 243；预解方程, 134；正压状态方程, 422；方程组 Euler 方程组, 137, 405；Euler-Lagrange 方程组, 77；Hamilton 方程组, 76；Hamilton-Jacobi 方程组, 75；反应扩散方程组, 355；浅水方程组, 405；方法 Galerkin 方法, 250, 268；特征方法，14；非散度型, 208；非特征的, 155；分离变量法, 111；符号差, 147
+G
+Green 函数, 27；公式 Almgren 单调性公式, 348；Euler 公式, 108；Hadamard 变分公式, 246；Hopf-Lax 公式, 82；Kirchhoff 公式, 48；Poisson 公式, 25, 49；Rayleigh 公式, 237；单调性公式, 342；平均值公式, 18；共形能量, 343, 344；估计 先验估计, 358；孤子, 119；光滑性, 6；广义动量, 79；规则 Stokes 规则, 58
+H
+Hesse 阵, 467；Hölder 范数, 170；Hölder 空间, 170；函数 光滑函数, 465；几乎可分值函数, 492；价值函数, 393；检验函数, 90；简单函数, 492；校正函数, 23；截断函数, 40, 219, 221, 223, 235；可测函数, 490；可和函数, 471, 474, 491, 493；可积函数, 491；频率函数, 348；调和函数, 15；通量函数, 404；凸函数, 471；允许函数, 310；障碍函数, 244；正常凸函数, 372；指示函数, 466；耗散, 117；耗损, 209；恒等式 DerrickPohozaev 恒等式, 367, 382；Morawetz 恒等式, 344；后向波锥, 55
+J
+基本解 Laplace 方程的基本解, 16；Schrödinger 方程的基本解, 128；热传导方程的基本解, 31；激波, 94, 103, 414；积分解, 91；积分约束, 324, 325；极小化序列, 311；几何光学表达式, 145；迹, 181；迹算子, 181；检验函数, 171；简单波, 412；简单特征值, 237；降维法, 49, 52, 460；校正函数, 27；接触不连续线, 418；截断, 203；结构关系, 405；解的最大存在时间, 447；解析半群, 290；紧嵌入, 191；紧映射, 354；矩阵 梯度矩阵, 469；卷积, 467；均匀化理论, 151
+K
+可测集, 490；空间的, 119；空间 Banach 空间, 170, 482；Hölder 空间, 169, 468；Hilbert 空间, 483；Sobolev 空间, 172, 468；对偶空间, 484；分数 Sobolev 空间, 200；正交空间, 483；状态空间, 404；自反空间, 485；空间变量, 127；控制, 392；扩张, 179
+L
+Lagrange 乘子, 325；理论 控制理论, 391；连续 Lipschitz 连续, 466；弱下半连续, 311；链规则, 206；临界点, 78, 333；临界指数, 339, 366；轮廓, 117；律 Fredholm 二择一律, 488
+N
+内积, 483；内能, 405；能量守恒, 342；能量密度, 405；能量通量, 438；黏性解, 385
+O
+ODE, 7
+P
+PDE, 1；半线性, 1；Poisson 核, 25, 28；判据 ArzelàAscoli 紧性判据, 317, 384, 482；费用判据, 392；刘嫡判据, 427；抛物逼近, 143；抛物边界, 464；抛物内部, 35；配对, 484；偏微分方程, 1；阶偏微分方程, 1；半线性偏微分方程, 1；拟线性偏微分方程, 1；齐次偏微分方程，1；完全非线性偏微分方程, 2；平面 支撑超平面，471；平面波, 171, 364；破裂, 17, 113, 364；谱, 216, 484
+Q
+奇积分, 63；奇异摄动, 140；强解 传输方程的强解, 14；强可测, 492；区域变分, 340；群速度, 118
+R
+热传导方程 热传导方程的尺度伸缩, 31；热传导方程的强最大值原理, 37；热传导方程的最大值原理, 37；热传导方程的关于反向时间的唯一性, 42；弱导数, 6, 171, 202；弱解, 6；弱可测, 492；弱收敛, 311；弱拓扑, 311
+S
+Sobolev 共轭, 185；Stokes 问题, 330；散度型, 208；色散, 117；熵解, 99；上解, 230, 260, 361；时间上是可逆的, 128；时频, 117；势函数, 137；适定问题, 135；收敛，482；守恒律 多自变量标量守恒律, 435；守恒律组 一维空间中的守恒律组, 404；双曲反演, 343；双线性型, 210；依赖于时间的双线性型, 267；速度场, 138；速端曲线变换, 138；速率, 117, 405, 407；波的速率, 104；算子 伴随算子, 485；保序算子, 354；闭线性算子, 484；对称算子, 485；标准光滑化算子, 478；线性算子, 484；形式伴随算子, 214；一致抛物型算子, 248；有界线性算子, 484
+T
+Turing 不稳定性, 115；特征方程, 65；特征方程组, 216；特征函数，112,216；特征值, 112, 112, 216, 484；调和函数 调和函数的强最大值原理, 19；调和函数的正则性定理, 19；调和函数的最大值原理, 19；条件 E 条件, 435；Lax 熵条件, 419；Palais-Smale 条件, 333；Rankine-Hugoniot 条件, 92；Robin边界条件，244；Sommerfeld 辐射条件, 246；不可压条件， 330；非特征条件， 70；混合 DirichletNeumann 边界条件, 244；内球条件, 369；熵条件， 99；相容性条件 69；一致椭圆型条件, 218；通积分, 64；推迟势, 54
+W
+完备, 170, 482；完全积分, 61；问题 Cauchy 问题, 38, 154；Neumann 问题, 244；Neumann 边值问题, 245；Riemann 问题, 102；伴随问题, 214；传输方程的非齐次问题, 14；非线性特征值问题, 325；热传导方程的 Neumann 问题, 297；热传导方程的非齐次初值问题, 33；弱解的正则性问题, 218；由阴影求形状问题, 401；终端价值问题, 396；终值问题, 100
+X
+稀疏波, 94, 103；下解, 230, 260, 361；下调和, 56；热传导方程的下解, 58；响应, 392；相, 145；相平面分析, 120；相速率, 118；消黏, 141；消黏法, 143；星形区域, 366；行波, 117；性质 压缩性质，400；序性质, 360；性质 收缩性质, 400
+Y
+压力, 138, 330；严格双曲型, 281；严格压缩，354；一般守恒律组, 404；一阶双曲组, 281；一致可积, 446；一致凸, 471；一致椭圆型条件, 152；抑制剂, 116；音速, 411；引理 Hopf 引理, 231；Morse 引理, 148；应变, 411；应力, 411；映射 波映射, 461；优级数, 157；有限时界, 393；右特征向量, 408；右行波, 464；预解集, 484；原理 Courant 极小化极大原理, 245；Dirichlet 原理, 303；Duhamel 原理, 35；Huygens 原理, 53, 134；对偶变分原理, 347；强最大值原理, 231, 233；热传导方程的强最大值原理, 37；弱最大值原理, 229, 245；跃变, 407  跃度，92  允许集, 292  允许控制, 399  允许状态, 419
+Z
+增长, 329,  障碍，326，344  振幅, 145  正交, 483  正解，368  正则性, 6  支集, 465  质量密度，405  终端费用, 395  主特征值, 237  驻定相, 145  状态, 392  自然长度尺度, 151  自由边界, 328  自助法, 323  最小化，82  左特征向量, 408  左行波, 46  作用, 77, 343  作用泛函, 343
+Preface
+
+添加图片注释，不超过 140 字（可选）
+
+添加图片注释，不超过 140 字（可选）
+Contents
+Introduction
+1.1. Partial differential equations
+1.2. Examples
+1.2.1. Single partial differential equations
+1.2.2. Systems of partial differential equations
+1.3. Strategies for studying PDE
+1.3.1. Well-posed problems, classical solutions
+1.3.2. Weak solutions and regularity
+1.3.3. Typical difficulties
+1.4. Overview
+1.5. Problems
+1.6. References
+PART I: REPRESENTATION FORMULAS FOR SOLUTIONS
+Four Important Linear PDE
+2.1. Transport equation
+2.1.1. Initial-value problem
+2.1.2. Nonhomogeneous problem
+2.2. Laplace's equation
+2.2.1. Fundamental solution
+2.2.2. Mean-value formulas
+2.2.3. Properties of harmonic functions
+2.2.4. Green's function
+2.2.5. Energy methods
+2.3. Heat equation
+2.3.1. Fundamental solution
+2.3.2. Mean-value formula
+2.3.3. Properties of solutions
+2.3.4. Energy methods
+2.4. Wave equation
+2.4.1. Solution by spherical means
+2.4.2. Nonhomogeneous problem
+2.4.3. Energy methods
+2.5. Problems
+2.6. References
+Nonlinear First-Order PDE
+3.1. Complete integrals, envelopes
+3.1.1. Complete integrals
+3.1.2. New solutions from envelopes
+3.2. Characteristics
+3.2.1. Derivation of characteristic ODE
+3.2.2. Examples
+3.2.3. Boundary conditions
+3.2.4. Local solution
+3.2.5. Applications
+3.3. Introduction to Hamilton-Jacobi equations
+3.3.1. Calculus of variations, Hamilton's ODE
+3.3.2. Legendre transform, Hopf-Lax formula
+3.3.3. Weak solutions, uniqueness
+3.4. Introduction to conservation laws
+3.4.1. Shocks, entropy condition
+3.4.2. Lax-Oleinik formula
+3.4.3. Weak solutions, uniqueness
+3.4.4. Riemann's problem
+3.4.5. Long time behavior
+3.5. Problems
+3.6. References
+Other Ways to Represent Solutions
+4.1. Separation of variables
+4.1.1. Examples
+4.1.2. Application: Turing instability
+4.2. Similarity solutions
+4.2.1. Plane and traveling waves, solitons
+4.2.2. Similarity under scaling
+4.3. Transform methods
+4.3.1. Fourier transform
+4.3.2. Radon transform
+4.3.3. Laplace transform
+4.4. Converting nonlinear into linear PDE
+4.4.1. Cole-Hopf transformation
+4.4.2. Potential functions
+4.4.3. Hodograph and Legendre transforms
+4.5. Asymptotics
+4.5.1. Singular perturbations
+4.5.2. Laplace's method
+4.5.3. Geometric optics, stationary phase
+4.5.4. Homogenization
+4.6. Power series
+4.6.1. Noncharacteristic surfaces
+4.6.2. Real analytic functions
+4.6.3. Cauchy-Kovalevskaya Theorem
+4.7. Problems
+4.8. References
+PART II: THEORY FOR LINEAR PARTIAL DIFFERENTIAL EQUATIONS
+Sobolev Spaces
+5.1. Holder spaces
+5.2. Sobolev spaces
+5.2.1. Weak derivatives
+5.2.2. Definition of Sobolev spaces
+5.2.3. Elementary properties
+5.3. Approximation
+5.3.1. Interior approximation by smooth functions
+5.3.2. Approximation by smooth functions
+5.3.3. Global approximation by smooth functions
+5.4. Extensions
+5.5. Traces
+5.6. Sobolev inequalities
+5.6.1. Gagliardo-Nirenberg-Sobolev inequality
+5.6.2. Morrey's inequality
+5.6.3. General Sobolev inequalities
+5.7. Compactness
+5.8. Additional topics
+5.8.1. Poincare's inequalities
+5.8.2. Difference quotients
+5.8.3. Differentiability a.e
+5.8.4. Hardy's inequality
+5.8.5. Fourier transform methods
+5.9. Other spaces of functions
+5.9.1. The space H^1
+5.9.2. Spaces involving time
+5.10. Problems
+5.11. References
+Second-Order Elliptic Equations
+6.1. Definitions
+6.1.1. Elliptic equations
+6.1.2. Weak solutions
+6.2. Existence of weak solutions
+6.2.1. Lax-Milgram Theorem
+6.2.2. Energy estimates
+6.2.3. Fredholm alternative
+6.3. Regularity
+6.3.1. Interior regularity
+6.3.2. Boundary regularity
+6.4. Maximum principles
+6.4.1. Weak maximum principle
+6.4.2. Strong maximum principle
+6.4.3. Harnack's inequality
+6.5. Eigenvalues and eigenfunctions
+6.5.1. Eigenvalues of symmetric elliptic operators
+6.5.2. Eigenvalues of nonsymmetric elliptic operators
+6.6. Problems
+6.7. References
+Linear Evolution Equations
+7.1. Second-order parabolic equations
+7.1.1. Definitions
+7.1.2. Existence of weak solutions
+7.1.3. Regularity
+7.1.4. Maximum principles
+7.2. Second-order hyperbolic equations
+7.2.1. Definitions
+7.2.2. Existence of weak solutions
+7.2.3. Regularity
+7.2.4. Propagation of disturbances
+7.2.5. Equations in two variables
+7.3. Hyperbolic systems of first-order equations
+7.3.1. Definitions
+7.3.2. Symmetric hyperbolic systems
+7.3.3. Systems with constant coefficients
+7.4. Semigroup theory
+7.4.1. Definitions, elementary properties
+7.4.2. Generating contraction semigroups
+7.4.3. Applications
+7.5. Problems
+7.6. References
+PART III: THEORY FOR NONLINEAR PARTIAL DIFFERENTIAL EQUATIONS
+The Calculus of Variations
+8.1. Introduction
+8.1.1. Basic ideas
+8.1.2. First variation, Euler-Lagrange equation
+8.1.3. Second variation
+8.1.4. Systems
+8.2. Existence of minimizers
+8.2.1. Coercivity, lower semicontinuity
+8.2.2. Convexity
+8.2.3. Weak solutions of Euler-Lagrange equation
+8.2.4. Systems
+8.2.5. Local minimizers
+8.3. Regularity
+8.3.1. Second derivative estimates
+8.3.2. Remarks on higher regularity
+8.4. Constraints
+8.4.1. Nonlinear eigenvalue problems
+8.4.2. Unilateral constraints, variational inequalities
+8.4.3. Harmonic maps
+8.4.4. Incompressibility
+8.5. Critical points
+8.5.1. Mountain Pass Theorem
+8.5.2. Application to semilinear elliptic PDE
+8.6. Invariance, Noether's Theorem
+8.6.1. Invariant variational problems
+8.6.2. Noether's Theorem
+8.7. Problems
+8.8. References
+Nonvariational Techniques
+9.1. Monotonicity methods
+9.2. Fixed point methods
+9.2.1. Banach's Fixed Point Theorem
+9.2.2. Schauder's, Schaefer's Fixed Point Theorems
+9.3. Method of subsolutions and supersolutions
+9.4. Nonexistence of solutions
+9.4.1. Blow-up
+9.4.2. Derrick-Pohozaev identity
+9.5. Geometric properties of solutions
+9.5.1. Star-shaped level sets
+9.5.2. Radial symmetry
+9.6. Gradient flows
+9.6.1. Convex functions on Hilbert spaces
+9.6.2. Subdifferentials and nonlinear semigroups
+9.6.3. Applications
+9.7. Problems
+9.8. References
+Hamilton-Jacobi Equations
+10.1. Introduction, viscosity solutions
+10.1.1. Definitions
+10.1.2. Consistency
+10.2. Uniqueness
+10.3. Control theory, dynamic programming
+10.3.1. Introduction to optimal control theory
+10.3.2. Dynamic programming
+10.3.3. Hamilton-Jacobi-Bellman equation
+10.3.4. Hopf-Lax formula revisited
+10.4. Problems
+10.5. References
+Systems of Conservation Laws
+11.1. Introduction
+11.1.1. Integral solutions
+11.1.2. Traveling waves, hyperbolic systems
+11.2. Riemann's problem
+11.2.1. Simple waves
+11.2.2. Rarefaction waves
+11.2.3. Shock waves, contact discontinuities
+11.2.4. Local solution of Riemann's problem
+11.3. Systems of two conservation laws
+11.3.1. Riemann invariants
+11.3.2. Nonexistence of smooth solutions
+11.4. Entropy criteria
+11.4.1. Vanishing viscosity, traveling waves
+11.4.2. Entropy/entropy-flux pairs
+11.4.3. Uniqueness for scalar conservation laws
+11.5. Problems
+11.6. References
+Nonlinear Wave Equations
+12.1. Introduction
+12.1.1. Conservation of energy
+12.1.2. Finite propagation speed
+12.2. Existence of solutions
+12.2.1. Lipschitz nonlinearities
+12.2.2. Short time existence
+12.3. Semilinear wave equations
+12.3.1. Sign conditions
+12.3.2. Three space dimensions
+12.3.3. Subcritical power nonlinearities
+12.4. Critical power nonlinearity
+12.5. Nonexistence of solutions
+12.5.1. Nonexistence for negative energy
+12.5.2. Nonexistence for small initial data
+12.6. Problems
+12.7. References
+APPENDICES
+Appendix A: Notation
+A.1. Notation for matrices
+A.2. Geometric notation
+A.3. Notation for functions
+A.4. Vector-valued functions
+A.5. Notation for estimates
+A.6. Some comments about notation
+Appendix B: Inequalities
+B.1. Convex functions
+B.2. Useful inequalities
+Appendix C: Calculus
+C.1. Boundaries
+C.2. Gauss-Green Theorem
+C.3. Polar coordinates, coarea formula
+C.4. Moving regions
+C.5. Convolution and smoothing
+C.6. Inverse Function Theorem
+C.7. Implicit Function Theorem
+C.8. Uniform convergence
+Appendix D: Functional Analysis
+D.1. Banach spaces
+D.2. Hilbert spaces
+D.3. Bounded linear operators
+D.4. Weak convergence
+D.5. Compact operators, Fredholm theory
+D.6. Symmetric operators
+Appendix E: Measure Theory
+E.1. Lebesgue measure
+E.2. Measurable functions and integration
+E.3. Convergence theorems for integrals
+E.4. Differentiation
+E.5. Banach space-valued functions
+Bibliography
+Index
