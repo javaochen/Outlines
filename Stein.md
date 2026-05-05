@@ -1,0 +1,610 @@
+### - Book I
+- Cover
+- Half-Title
+- Title
+- Copyright
+- Authors’ Dedications
+- Foreword
+- Preface to Book I
+- Contents
+- The Genesis of Fourier Analysis
+ - The vibrating string
+	- Simple harmonic motion
+	- Standing and traveling waves
+	- Harmonics and superposition of tones
+	- Derivation of the wave equation
+	- Solution to the wave equation
+	  - Traveling waves
+	  - Superposition of standing waves
+	- Example: the plucked string
+ - The heat equation
+	- Derivation of the heat equation
+	- Steady-state heat equation in the disc
+ - Exercises
+ - Problem
+- Basic Properties of Fourier Series
+ - Examples and formulation of the problem
+	- Everywhere continuous functions
+	- Piecewise continuous functions
+	- Riemann integrable functions
+	- Functions on the circle
+	- Main definitions and some examples
+ - Uniqueness of Fourier series
+ - Convolutions
+ - Good kernels
+ - Cesàro and Abel summability: applications to Fourier series
+	- Cesàro means and summation
+	- Fejér’s theorem
+	- Abel means and summation
+	- The Poisson kernel and Dirichlet’s problem in the unit disc
+ - Exercises
+ - Problems
+- Convergence of Fourier Series
+ - Mean-square convergence of Fourier series
+	- Vector spaces and inner products
+	  - Preliminaries on vector spaces
+	  - Two important examples
+	- Proof of mean-square convergence
+ - Return to pointwise convergence
+	- A local result
+	- A continuous function with diverging Fourier series
+ - Exercises
+ - Problems
+- Some Applications of Fourier Series
+ - The isoperimetric inequality
+	- Curves, length and area
+	- Statement and proof of the isoperimetric inequality
+ - Weyl’s equidistribution theorem
+	- The reals modulo the integers
+ - A continuous but nowhere differentiable function
+ - The heat equation on the circle
+ - Exercises
+ - Problems
+- The Fourier Transform on R
+ - Elementary theory of the Fourier transform
+	- Integration of functions on the real line
+	- Definition of the Fourier transform
+	- The Schwartz space
+	- The Fourier transform on S
+	  - The Gaussians as good kernels
+	- The Fourier inversion
+	- The Plancherel formula
+	- Extension to functions of moderate decrease
+	- The Weierstrass approximation theorem
+ - Applications to some partial differential equations
+	- The time-dependent heat equation on the real line
+	- The steady-state heat equation in the upper half-plane
+ - The Poisson summation formula
+	- Theta and zeta functions
+	- Heat kernels
+	- Poisson kernels
+ - The Heisenberg uncertainty principle
+ - Exercises
+ - Problems
+- The Fourier Transform on Rd
+ - Preliminaries
+	- Symmetries
+	- Integration on Rd
+	  - Polar coordinates
+ - Elementary theory of the Fourier transform
+ - The wave equation in Rd × R
+	- Solution in terms of Fourier transforms
+	- The wave equation in R3 × R
+	  - Huygens principle
+	- The wave equation in R2 × R: descent
+ - Radial symmetry and Bessel functions
+ - The Radon transform and some of its applications
+	- The X-ray transform in R2
+	- The Radon transform in R3
+	- A note about plane waves
+ - Exercises
+ - Problems
+- Finite Fourier Analysis
+ - Fourier analysis on Z(N)
+	- The group Z(N)
+	- Fourier inversion theorem and Plancherel identity on Z(N)
+	- The fast Fourier transform
+ - Fourier analysis on finite abelian groups
+	- Abelian groups
+	  - Examples of abelian groups
+	  - The group Z∗(q)
+	- Characters
+	- The orthogonality relations
+	- Characters as a total family
+	- Fourier inversion and Plancherel formula
+ - Exercises
+ - Problems
+- Dirichlet’s Theorem
+ - A little elementary number theory
+	- The fundamental theorem of arithmetic
+	- The infinitude of primes
+	  - The zeta function and its Euler product
+ - Dirichlet’s theorem
+	- Fourier analysis, Dirichlet characters, and reduction of the
+	- Dirichlet L-functions
+	  - Historical digression
+ - Proof of the theorem
+	- Logarithms
+	- L-functions
+	- Non-vanishing of the L-function
+	  - Case I: complex Dirichlet characters
+	  - Case II: real Dirichlet characters
+ - Exercises
+ - Problems
+- Appendix : Integration
+ - A.1 Definition of the Riemann integral
+	- A.1.1 Basic properties
+	- A.1.2 Sets of measure zero and discontinuities of integrable func
+ - A.2 Multiple integrals
+	- A.2.1 The Riemann integral in Rd
+	  - Definitions
+	- A.2.2 Repeated integrals
+	- A.2.3 The change of variables formula
+	- A.2.4 Spherical coordinates
+ - A.3 Improper integrals. Integration over Rd
+	- A.3.1 Integration of functions of moderate decrease
+	- A.3.2 Repeated integrals
+	- A.3.3 Spherical coordinates
+- Notes and References
+- Bibliography
+- Symbol Glossary
+- Index
+
+### - Book II
+- Cover
+- Half-Title
+- Title
+- Copyright
+- Authors’ Dedications
+- Foreword
+- Contents
+- Introduction
+- Preliminaries to Complex Analysis
+ - Complex numbers and the complex plane
+	- Basic properties
+	- Convergence
+	- Sets in the complex plane
+ - Functions on the complex plane
+	- Continuous functions
+	- Holomorphic functions
+	  - Complex-valued functions as mappings
+	- Power series
+ - Integration along curves
+ - Exercises
+- Cauchy’s Theorem and Its Applications
+ - Goursat’s theorem
+ - Local existence of primitives and Cauchy’s theorem in a disc
+ - Evaluation of some integrals
+ - Cauchy’s integral formulas
+ - Further applications
+	- Morera’s theorem
+	- Sequences of holomorphic functions
+	- Holomorphic functions defined in terms of integrals
+	- Schwarz reflection principle
+	- Runge’s approximation theorem
+ - Exercises
+ - Problems
+- Meromorphic Functions and the Logarithm
+ - Zeros and poles
+ - The residue formula
+	- Examples
+ - Singularities and meromorphic functions
+	- The Riemann sphere
+ - The argument principle and applications
+ - Homotopies and simply connected domains
+ - The complex logarithm
+ - Fourier series and harmonic functions
+ - Exercises
+ - Problems
+- The Fourier Transform
+ - The class F
+ - Action of the Fourier transform on F
+ - Paley-Wiener theorem
+ - Exercises
+ - Problems
+- Entire Functions
+ - Jensen’s formula
+ - Functions of finite order
+ - Infinite products
+	- Generalities
+	- Example: the product formula for the sine function
+ - Weierstrass infinite products
+ - Hadamard’s factorization theorem
+	- Main lemmas
+	- Proof of Hadamard’s theorem
+ - Exercises
+ - Problems
+- The Gamma and Zeta Functions
+ - The gamma function
+	- Analytic continuation
+	- Further properties of Γ
+ - The zeta function
+	- Functional equation and analytic continuation
+ - Exercises
+ - Problems
+- The Zeta Function and Prime Number Theorem
+ - Zeros of the zeta function
+	- Estimates for 1/ζ(s)
+ - Reduction to the functions ψ and ψ1
+	- Proof of the asymptotics for ψ1
+ - Note on interchanging double sums
+ - Exercises
+ - Problems
+- Conformal Mappings
+ - Conformal equivalence and examples
+	- The disc and upper half-plane
+	- Further examples
+	- The Dirichlet problem in a strip
+	  - Remarks about the Dirichlet problem
+ - The Schwarz lemma; automorphisms of the disc and upper half-plane
+	- Automorphisms of the disc
+	- Automorphisms of the upper half-plane
+ - The Riemann mapping theorem
+	- Necessary conditions and statement of the theorem
+	- Montel’s theorem
+	- Proof of the Riemann mapping theorem
+ - Conformal mappings onto polygons
+	- Some examples
+	- The Schwarz-Christoffel integral
+	- Boundary behavior
+	- The mapping formula
+	- Return to elliptic integrals
+ - Exercises
+ - Problems
+- An Introduction to Elliptic Functions
+ - Elliptic functions
+	- Liouville’s theorems
+	- The Weierstrass ℘ function
+	  - An elliptic function of order two
+	  - Properties of ℘
+ - The modular character of elliptic functions and Eisenstein series
+	- Eisenstein series
+	- Eisenstein series and divisor functions
+ - Exercises
+ - Problems
+- Applications of Theta Functions
+ - Product formula for the Jacobi theta function
+	- Further transformation laws
+ - Generating functions
+ - The theorems about sums of squares
+	- The two-squares theorem
+	- The four-squares theorem
+	  - Statement of the theorem
+ - Exercises
+ - Problems
+- Appendix A: Asymptotics
+ - A.1 Bessel functions
+ - A.2 Laplace’s method; Stirling’s formula
+ - A.3 The Airy function
+ - A.4 The partition function
+ - A.5 Problems
+- Appendix B: Simple Connectivity and Jordan Curve Theorem
+ - B.1 Equivalent formulations of simple connectivity
+	- Winding numbers
+ - B.2 The Jordan curve theorem
+	- Proof of Theorem 2.1
+	- Proof of Theorem 2.2
+	- B.2.1 Proof of a general form of Cauchy’s theorem
+- Notes and References
+- Bibliography
+- Symbol Glossary
+- Index
+### - Book III
+- Cover
+- Half-Title
+- Title
+- Copyright
+- Authors’ Dedications
+- Foreword
+- Contents
+- Introduction
+ - Fourier series: completion
+ - Limits of continuous functions
+ - Length of curves
+ - Differentiation and integration
+ - The problem of measure
+- Measure Theory
+ - Preliminaries
+	- Open, closed, and compact sets
+	- Rectangles and cubes
+	- The Cantor set
+ - The exterior measure
+	- Properties of the exterior measure
+ - Measurable sets and the Lebesgue measure
+	- Invariance properties of Lebesgue measure
+	- Construction of a non-measurable set
+	- Axiom of choice
+ - Measurable functions
+	- Definition and basic properties
+	- Approximation by simple functions or step functions
+	- Littlewood’s three principles
+ - * The Brunn-Minkowski inequality
+ - Exercises
+ - Problems
+- Integration Theory
+ - The Lebesgue integral: basic properties and convergence theorems
+	- Stage one: simple functions
+	- Stage two: bounded functions supported on a set of finite measure
+	- Return to Riemann integrable functions
+	- Stage three: non-negative functions
+	- Stage four: general case
+	- Complex-valued functions
+ - The space L1 of integrable functions
+	- Invariance Properties
+	- Translations and continuity
+ - Fubini’s theorem
+	- Statement and proof of the theorem
+	- Applications of Fubini’s theorem
+ - * A Fourier inversion formula
+ - Exercises
+ - Problems
+- Differentiation and Integration
+ - Differentiation of the integral
+	- The Hardy-Littlewood maximal function
+	- The Lebesgue differentiation theorem
+ - Good kernels and approximations to the identity
+ - Differentiability of functions
+	- Functions of bounded variation
+	  - The Cantor-Lebesgue function
+	- Absolutely continuous functions
+	- Differentiability of jump functions
+ - Rectifiable curves and the isoperimetric inequality
+	- * Minkowski content of a curve
+	- * Isoperimetric inequality
+ - Exercises
+ - Problems
+- Hilbert Spaces: An Introduction
+ - The Hilbert space L2
+ - Hilbert spaces
+	- Orthogonality
+	- Unitary mappings
+	- Pre-Hilbert spaces
+ - Fourier series and Fatou’s theorem
+	- Fatou’s theorem
+ - Closed subspaces and orthogonal projections
+ - Linear transformations
+	- Linear functionals and the Riesz representation theorem
+	- Adjoints
+	- Examples
+	  - Infinite diagonal matrix
+	  - Integral operators, and in particular, Hilbert-Schmidt operators
+ - Compact operators
+ - Exercises
+ - Problems
+- Hilbert Spaces: Several Examples
+ - The Fourier transform on L2
+ - The Hardy space of the upper half-plane
+ - Constant coefficient partial differential equations
+	- Weak solutions
+	- The main theorem and key estimate
+	  - Proof of the main estimate
+ - * The Dirichlet principle
+	- Harmonic functions
+	  - The converse property
+	- The boundary value problem and Dirichlet’s principle
+	  - The two-dimensional theorem
+ - Exercises
+ - Problems
+- Abstract Measure and Integration Theory
+ - Abstract measure spaces
+	- Exterior measures and Carathéodory’s theorem
+	- Metric exterior measures
+	- The extension theorem
+ - Integration on a measure space
+	- Measurable functions
+	- Definition and main properties of the integral
+	- The spaces L1(X, µ) and L2(X, µ)
+ - Examples
+	- Product measures and a general Fubini theorem
+	- Integration formula for polar coordinates
+	- Borel measures on R and the Lebesgue-Stieltjes integral
+ - Absolute continuity of measures
+	- Signed measures
+	- Absolute continuity
+	  - Mutually singular and absolutely continuous measures
+ - * Ergodic theorems
+	- Mean ergodic theorem
+	- Maximal ergodic theorem
+	- Pointwise ergodic theorem
+	- Ergodic measure-preserving transformations
+	  - a) Rotations of the circle
+	  - b) The doubling mapping
+ - * Appendix: the spectral theorem
+	- Statement of the theorem
+	- Positive operators
+	- Proof of the theorem
+	- Spectrum
+ - Exercises
+ - Problems
+- Hausdorff Measure and Fractals
+ - Hausdorff measure
+ - Hausdorff dimension
+	- Examples
+	  - The Cantor set
+	  - Rectifiable curves
+	  - The Sierpinski triangle
+	  - The von Koch curve
+	- Self-similarity
+ - Space-filling curves
+	- Quartic intervals and dyadic squares
+	- Dyadic correspondence
+	- Construction of the Peano mapping
+ - * Besicovitch sets and regularity
+	- The Radon transform
+	- Regularity of sets when d ≥ 3
+	- Besicovitch sets have dimension 2
+	- Construction of a Besicovitch set
+	  - The proof that m(C + λC) = 0 for a.e. λ
+ - Exercises
+ - Problems
+- Notes and References
+- Bibliography
+- Symbol Glossary
+- Index
+In this third volume we establish the basic facts concerning measure theory and integration. This allows us to reexamine and develop further several important topics that arose in the previous volumes,
+as well as to introduce a number of other subjects of substantial interest in analysis. To aid the interested reader, we have starred sections that contain more advanced material. These can be omitted on first reading. We also want to take this opportunity to thank Daniel Levine for his continuing help in proof-reading and the many suggestions he made that are incorporated in the text.
+
+November 2004
+### - Book IV
+- Cover
+- Half-Title
+- Title
+- Copyright
+- Authors’ Dedications
+- Foreword
+- Contents
+- Preface to Book IV
+- Lp Spaces and Banach Spaces
+ - Lp spaces
+	- The Hölder and Minkowski inequalities
+	- Completeness of Lp
+	- Further remarks
+ - The case p = ∞
+ - Banach spaces
+	- Examples
+	- Linear functionals and the dual of a Banach space
+ - The dual space of Lp when 1 ≤ p < ∞
+ - More about linear functionals
+	- Separation of convex sets
+	- The Hahn-Banach Theorem
+	- Some consequences
+	- The problem of measure
+ - Complex Lp and Banach spaces
+ - Appendix: The dual of C(X)
+	- The case of positive linear functionals
+	- The main result
+	- An extension
+ - Exercises
+ - Problems
+- Lp Spaces in Harmonic Analysis
+ - Early Motivations
+ - The Riesz interpolation theorem
+	- Some examples
+ - The Lp theory of the Hilbert transform
+	- The L2 formalism
+	- The Lp theorem
+	- Proof of Theorem 3.2
+ - The maximal function and weak-type estimates
+	- The Lp inequality
+	  - Distribution function
+ - The Hardy space H1 r
+	- Atomic decomposition of H1
+	- An alternative definition of H1
+	- Application to the Hilbert transform
+ - The space H1 r and maximal functions
+	- The space BMO
+ - Exercises
+ - Problems
+- Distributions: Generalized Functions
+ - Elementary properties
+	- Definitions
+	- Operations on distributions
+	- Supports of distributions
+	- Tempered distributions
+	- Fourier transform
+	- Distributions with point supports
+ - Important examples of distributions
+	- The Hilbert transform and pv( 1
+	- Homogeneous distributions
+	- Fundamental solutions
+	- Fundamental solution to general partial differential equa
+	- Parametrices and regularity for elliptic equations
+ - Calderón-Zygmund distributions and Lp estimates
+	- Defining properties
+	- The Lp theory
+ - Exercises
+ - Problems
+- Applications of the Baire Category Theorem
+ - The Baire category theorem
+	- Continuity of the limit of a sequence of continuous functions
+	- Continuous functions that are nowhere differentiable
+	  - Proof of property (ii)
+ - The uniform boundedness principle
+	- Divergence of Fourier series
+ - The open mapping theorem
+	- Decay of Fourier coefficients of L1-functions
+ - The closed graph theorem
+	- Grothendieck’s theorem on closed subspaces of Lp
+ - Besicovitch sets
+ - Exercises
+ - Problems
+- Rudiments of Probability Theory
+ - Bernoulli trials
+	- Coin flips
+	- The case N = ∞
+	- Behavior of SN as N → ∞, first results
+	- Central limit theorem
+	- Statement and proof of the theorem
+	- Random series
+	- Random Fourier series
+	- Bernoulli trials
+ - Sums of independent random variables
+	- Law of large numbers and ergodic theorem
+	- The role of martingales
+	- The zero-one law
+	- The central limit theorem
+	- Random variables with values in Rd
+	- Random walks
+ - Exercises
+ - Problems
+- An Introduction to Brownian Motion
+ - The Framework
+ - Technical Preliminaries
+ - Construction of Brownian motion
+ - Some further properties of Brownian motion
+ - Stopping times and the strong Markov property
+	- Stopping times and the Blumenthal zero-one law
+	- The strong Markov property
+	- Other forms of the strong Markov Property
+ - Solution of the Dirichlet problem
+ - Exercises
+ - Problems
+- A Glimpse into Several Complex Variables
+ - Elementary properties
+ - Hartogs’ phenomenon: an example
+ - Hartogs’ theorem: the inhomogeneous Cauchy-Riemann equations
+ - A boundary version: the tangential Cauchy-Riemann equations
+ - The Levi form
+ - A maximum principle
+ - Approximation and extension theorems
+ - Appendix: The upper half-space
+	- Hardy space
+	- Cauchy integral
+	- Non-solvability
+ - Exercises
+ - Problems
+- Oscillatory Integrals in Fourier Analysis
+ - An illustration
+ - Oscillatory integrals
+ - Fourier transform of surface-carried measures
+ - Return to the averaging operator
+ - Restriction theorems
+	- Radial functions
+	- The problem
+	- The theorem
+ - Application to some dispersion equations
+	- The Schrödinger equation
+	- Another dispersion equation
+	- The non-homogeneous Schrödinger equation
+	- A critical non-linear dispersion equation
+ - A look back at the Radon transform
+	- A variant of the Radon transform
+	- Rotational curvature
+	- Oscillatory integrals
+	- Dyadic decomposition
+	- Almost-orthogonal sums
+	- Proof of Theorem 7.1
+ - Counting lattice points
+	- Averages of arithmetic functions
+	- Poisson summation formula
+	- Hyperbolic measure
+	- Fourier transforms
+	- A summation formula
+ - Exercises
+ - Problems
+- Notes and References
+- Bibliography
+- Symbol Glossary
+- Index
+As with the previous volumes, we are happy to record our great debt to Daniel Levine. The final version of this book has been much improved because of his help. He read the entire manuscript with great care and made valuable suggestions that have been incorporated in the text. We also wish to take this opportunity to thank Hart Smith and Polam Yung for proofreading parts of the book.
+May 2011
