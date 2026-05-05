@@ -58,6 +58,7 @@ In effect, if one extends these functions by allowing complex values for the arg
 When we begin the study of complex analysis we enter a marvelous world, full of wonderful insights. We are tempted to use the adjectives magical, or even miraculous when describing the first theorems we learn; and in pursuing the subject, we continue to be astonished by the elegance and sweep of the results.
 
 The starting point of our study is the idea of extending a function initially given for real values of the argument to one that is defined when the argument is complex. Thus, here the central objects are functions from the complex plane to itself
+
 $$f : \mathbb{C} \to \mathbb{C},$$
 or more generally, complex-valued functions defined on open subsets of $\mathbb{C}$. At first, one might object that nothing new is gained from this extension; since any complex number $z$ can be written as $z = x + iy$ where $x, y \in \mathbb{R}$ and $z$ is identified with the point $(x, y)$ in $\mathbb{R}^2$.
 
@@ -80,10 +81,12 @@ The study of complex analysis proceeds along two paths that often intersect. In 
 These three phenomena and other general properties of holomorphic functions are treated in the beginning chapters of this book. Instead of trying to summarize the contents of the rest of this volume, we mention briefly several other highlights of the subject.
 
 *   The zeta function, which is expressed as an infinite series
+
     $$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s},$$
     and is initially defined and holomorphic in the half-plane $\text{Re}(s) > 1$, where the convergence of the sum is guaranteed. This function and its variants (the $L$-series) are central in the theory of prime numbers, and have already appeared in Chapter 8 of Book I, where we proved Dirichlet's theorem. Here we will prove that $\zeta$ extends to a meromorphic function with a pole at $s = 1$. We shall see that the behavior of $\zeta(s)$ for $\text{Re}(s) = 1$ (and in particular that $\zeta$ does not vanish on that line) leads to a proof of the prime number theorem.
 
 *   The theta function
+
     $$\Theta(z|\tau) = \sum_{n=-\infty}^{\infty} e^{\pi in^2\tau} e^{2\pi inz},$$
     which in fact is a function of the two complex variables $z$ and $\tau$, holomorphic for all $z$, but only for $\tau$ in the half-plane $\text{Im}(\tau) > 0$. On the one hand, when we fix $\tau$, and think of $\Theta$ as a function of $z$, it is closely related to the theory of elliptic (doubly-periodic) functions. On the other hand, when $z$ is fixed, $\Theta$ displays features of a modular function in the upper half-plane. The function $\Theta(z|\tau)$ arose in Book I as a fundamental solution of the heat equation on the circle. It will be used again in the study of the zeta function, as well as in the proof of certain results in combinatorics and number theory given in Chapters 6 and 10.
 
