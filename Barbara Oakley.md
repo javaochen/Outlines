@@ -1,0 +1,132 @@
+- Advance Praise for LEARNING HOW TO LEARN
+- Title Page
+- Copyright
+- CONTENTS
+- A NOTE TO PARENTS AND TEACHERS
+- CHAPTER 1: THE PROBLEM WITH PASSION
+  - Jump Ahead If You’d Like!
+  - Disaster Strikes
+  - Rebuilding My Career
+  - Now You Try! Do a Picture Walk!
+- CHAPTER 2: EASY DOES IT: Why Trying Too Hard Can Sometimes Be Part of the Problem
+  - You’ve Got Two Ways of Thinking!
+  - Focused Mode
+  - Diffuse Mode
+  - Let’s Play Pinball
+  - Switching Between Focused and Diffuse Modes
+  - Now You Try! Shifting Modes
+  - Important Learning Tip: Don’t Jump to Conclusions about Whether or Not New Learning Strategies Work
+  - Use These Diffuse Mode Tools as Rewards After Focused Mode Work
+- CHAPTER 3: I’LL DO IT LATER, HONEST!: Using a Tomato to Beat Procrastination
+  - The Problem with Putting Things Off
+  - Distraction and Procrastination
+  - Procrastination and Pain
+  - The Pomodoro Technique
+  - Learning Tip: Set a Timer for Your Breaks—and Learn to Put Off Your Procrastination!
+  - Good Zombies and Bad Zombies
+  - Back to the Arsenic Eaters
+  - Now You Try! Preplanning to Avoid Distraction
+  - Now You Try! Boost Your Reading Power with Active Recall
+- CHAPTER 4: BRAIN-LINKS AND FUN WITH SPACE ALIENS
+  - Friendly Space Aliens: How Neurons “Talk”
+  - Now You Try! Make Your Own Neurons
+  - A Neuron Mystery
+  - We Love Metaphors!
+  - Now You Try! Understanding a Metaphor
+  - Santiago Ramón y Cajal
+  - Common Excuses in Learning10
+  - Pause and Recall
+  - Now You Try! Create Your Own Metaphor for Learning
+  - Key Terms Related to Neuroscience
+- CHAPTER 5: THE OTHER SIDE OF THE TEACHER’S DESK
+  - Pause and Recall
+  - Now You Try! Taking a Break
+- CHAPTER 6: LEARNING WHILE YOU SLEEP: How to Wake Up Smarter
+  - The Power of Sleep
+  - Now You Try! Check Your Synaptic Links
+  - Spaced Retrieval Practice: How to Build a Brick Wall of Learning
+  - Pause and Recall
+  - Now You Try: Repeat Your Learning After You’ve Slept on It
+- CHAPTER 7: SCHOOL BAGS, LOCKERS, AND YOUR ATTENTIONAL OCTOPUS
+  - Working Memory: Introducing Your Attentional Octopus
+  - Long-Term “Locker” Memory
+  - Pause and Recall
+  - Now You Try! Stage Your Own Memories
+- CHAPTER 8: SLICK TRICKS TO BUILD YOUR MEMORY
+  - Looking More Deeply into Long-Term Memory
+  - Nelson’s Five Tips for Remembering Things
+  - The Memory Palace Technique
+  - Why Does It Work?
+  - More Memory Strategies
+  - Learning Tip: The Rubber Ducky Method
+  - Wrapping Up Memory
+  - Now You Try! Your First Memory List
+- CHAPTER 9: WHY BRAIN-LINKS ARE IMPORTANT: (and How Not to Back a Car into a Ditch)
+  - Information Overload
+  - Memories Are Made of This (Unless You’re Distracted!)
+  - Enjoyment Comes with Mastery
+  - Key Ideas
+  - Pause and Recall
+  - Now You Try! Going Without Your Smartphone
+- CHAPTER 10: LEARNING WITH CLUBS AND GROUPS, FINDING YOUR MISSION, AND HOW TERRY NEARLY BURNED DOWN THE SCHOOL
+  - Terry the Troublemaker
+  - What Is Your Mission?
+  - What I Learned at Princeton
+  - Jumping into the Brain
+  - Artificial Brains
+  - Pause and Recall
+- CHAPTER 11: HOW TO PUMP UP YOUR BRAIN
+  - Exercise Pumps Up Your Brain!
+  - Food Also Feeds Your Brain!
+  - You Can Learn from Many Sources!
+  - Exercise: An All-Purpose Tool for Good Health
+  - Pause and Recall
+  - Now You Try! Exercise!
+- CHAPTER 12: MAKING BRAIN-LINKS: How Not to Learn from a Comic Book
+  - Becoming an Expert
+  - Two Key Ideas Behind Linking
+  - Making a Set of Brain-Links
+  - Special Advice for Math, Science, and Other Abstract Subjects
+  - Special Advice to Improve Your Writing
+  - Back to the Piano
+  - Lady Luck Favors the One Who Tries
+  - Pause and Recall
+  - Now You Try! Brain-Link to Mastery7
+  - Key Terms Related to Psychology
+- CHAPTER 13: ASKING YOURSELF IMPORTANT QUESTIONS: Should You Listen to Music While You’re Studying?
+  - Becoming an Artist and a Scientist
+  - Studying in Different Places
+  - The Problem with Auditory Versus Visual Learning Styles
+  - Sleep—It’s Even More Important Than You Think!
+  - Eat Your Frogs First!
+  - Set a Quitting Time
+  - Chapter Wrap-Up: Back to Music
+  - Now You Try! Think Like a Learning Scientist
+  - Pause and Recall
+- CHAPTER 14: LEARNING SURPRISES: Pssst... Your Worst Traits Can Be Your Best Traits!
+  - Video Games
+  - Learn Something Completely Different
+  - How to Take Notes
+  - Do You Have a Poor Working Memory? Congratulations!
+  - Hiker Brains Versus Race Car Brains
+  - Now You Try! Write It Down
+  - Pause and Recall
+- CHAPTER 15: HOW TO DO WELL ON TESTS
+  - Test Preparation Checklist
+  - The Hard-Start Technique: Learning When to Disconnect
+  - The Best Stress? Test Stress!
+  - A Few Final Suggestions for Test Success
+  - Pause, Recall, and Reflect
+  - Now You Try! Create Your Own Test Questions
+- CHAPTER 16: GOING FROM “HAVE TO” TO “GET TO”
+  - What to Do and What Not to Do in Your Learning
+  - Now You Try! You Become the Teacher
+  - Back to Santiago Ramón y Cajal
+- SOLUTIONS TO END-OF-CHAPTER PROBLEMS
+- SUGGESTED RESOURCES
+- ILLUSTRATION CREDITS
+- ACKNOWLEDGMENTS
+- REFERENCES
+- NOTES
+- INDEX
+- ABOUT THE AUTHORS AND ILLUSTRATOR
