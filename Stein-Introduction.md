@@ -65,6 +65,7 @@ or more generally, complex-valued functions defined on open subsets of $\mathbb{
 However, everything changes drastically if we make a natural, but misleadingly simple-looking assumption on $f$: that it is differentiable in the complex sense. This condition is called **holomorphicity**, and it shapes most of the theory discussed in this book.
 
 A function $f : \mathbb{C} \to \mathbb{C}$ is **holomorphic** at the point $z \in \mathbb{C}$ if the limit
+
 $$\lim_{h \to 0} \frac{f(z+h) - f(z)}{h} \quad (h \in \mathbb{C})$$
 exists. This is similar to the definition of differentiability in the case of a real argument, except that we allow $h$ to take *complex* values. The reason this assumption is so far-reaching is that, in fact, it encompasses a multiplicity of conditions: so to speak, one for each angle that $h$ can approach zero.
 
@@ -74,6 +75,7 @@ Although one might now be tempted to prove theorems about holomorphic functions 
 The study of complex analysis proceeds along two paths that often intersect. In following the first way, we seek to understand the universal characteristics of holomorphic functions, without special regard for specific examples. The second approach is the analysis of some particular functions that have proved to be of great interest in other areas of mathematics. Of course, we cannot go too far along either path without having traveled some way along the other. We shall start our study with some general characteristic properties of holomorphic functions, which are subsumed by three rather miraculous facts:
 
 1.  **CONTOUR INTEGRATION:** If $f$ is holomorphic in $\Omega$, then for appropriate closed paths in $\Omega$
+
     $$\int_{\gamma} f(z)dz = 0.$$
 2.  **REGULARITY:** If $f$ is holomorphic, then $f$ is indefinitely differentiable.
 3.  **ANALYTIC CONTINUATION:** If $f$ and $g$ are holomorphic functions in $\Omega$ which are equal in an arbitrarily small disc in $\Omega$, then $f = g$ everywhere in $\Omega$.
@@ -108,6 +110,7 @@ That is not to say that there was not considerable resistance to the change of p
 Whenever $f$ is a (Riemann) integrable function on $[-\pi, \pi]$ we defined in Book I its Fourier series $f \sim \sum a_n e^{inx}$ by
 $$a_n = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(x)e^{-inx} dx,$$
 and saw then that one had Parseval’s identity,
+
 $$\sum_{n=-\infty}^{\infty} |a_n|^2 = \frac{1}{2\pi} \int_{-\pi}^{\pi} |f(x)|^2 dx.$$
 
 However, the above relationship between functions and their Fourier coefficients is not completely reciprocal when limited to Riemann integrable functions. Thus if we consider the space $\mathcal{R}$ of such functions with its square norm, and the space $\ell^2(\mathbb{Z})$ with its norm, each element $f$ in $\mathcal{R}$ assigns a corresponding element $\{a_n\}$ in $\ell^2(\mathbb{Z})$, and the two norms are identical. However, it is easy to construct elements in $\ell^2(\mathbb{Z})$ that do not correspond to functions in $\mathcal{R}$. Note also that the space $\ell^2(\mathbb{Z})$ is *complete* in its norm, while $\mathcal{R}$ is not.² Thus we are led to two questions:
@@ -121,6 +124,7 @@ However, the above relationship between functions and their Fourier coefficients
 Suppose $\{f_n\}$ is a sequence of continuous functions on $[0, 1]$. We assume that $\lim_{n \to \infty} f_n(x) = f(x)$ exists for every $x$, and inquire as to the nature of the limiting function $f$.
 
 If we suppose that the convergence is uniform, matters are straightforward and $f$ is then everywhere continuous. However, once we drop the assumption of uniform convergence, things may change radically and the issues that arise can be quite subtle. An example of this is given by the fact that one can construct a sequence of continuous functions $\{f_n\}$ converging everywhere to $f$ so that
+
 $$\int_0^1 f(x) dx = \lim_{n \to \infty} \int_0^1 f_n(x) dx ?$$
 
 It is with Lebesgue integration that we can solve both this problem and the previous one.
@@ -144,7 +148,9 @@ There are further issues that arise. Rectifiable curves, because they are endowe
 **4 Differentiation and integration**
 
 The so-called “fundamental theorem of the calculus” expresses the fact that differentiation and integration are inverse operations, and this can be stated in two different ways, which we abbreviate as follows:
+
 $$F(b) - F(a) = \int_a^b F'(x) dx,$$
+
 $$\frac{d}{dx} \int_0^x f(y) dy = f(x).$$
 
 For the first assertion, the existence of continuous functions $F$ that are nowhere differentiable, or for which $F'(x)$ exists for every $x$, but $F'$ is not integrable, leads to the problem of finding a general class of the $F$ for which (3) is valid. As for (4), the question is to formulate properly and establish this assertion for the general class of integrable functions $f$ that arise in the solution of the first two problems considered above. These questions can be answered with the help of certain “covering” arguments, and the notion of absolute continuity.
