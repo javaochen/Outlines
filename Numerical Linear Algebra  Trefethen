@@ -1,0 +1,51 @@
+Preface; Part I. Fundamental: 1. Matrix-vector multiplication; 2. Orthogonal vectors and matrices; 3. Norms; 4. The singular value decomposition; 5. More on the SVD; Part II. QR Factorization and Least Squares: 6. Projectors; 7. QR factorization; 8. Gram-Schmidt orthogonalization; 9. MATLAB; 10. Householder triangularization; 11. Least squares problems; Part III. Conditioning and Stability: 12. Conditioning and condition numbers; 13. Floating point arithmetic; 14. Stability; 15. More on stability; 16. Stability of householder triangularization; 17. Stability of back substitution; 18. Conditioning of least squares problems; 19. Stability of least squares algorithms; Part IV. Systems of Equations: 20. Gaussian elimination; 21. Pivoting; 22. Stability of Gaussian elimination; 23. Cholesky factorization; Part V. Eigenvalues: 24. Eigenvalue problems; 25. Overview of Eigenvalue algorithms; 26. Reduction to Hessenberg or tridiagonal form; 27. Rayleigh quotient, inverse iteration; 28. QR algorithm without shifts; 29. QR algorithm with shifts; 30. Other Eigenvalue algorithms; 31. Computing the SVD; Part VI. Iterative Methods: 32. Overview of iterative methods; 33. The Arnoldi iteration; 34. How Arnoldi locates Eigenvalues; 35. GMRES; 36. The Lanczos iteration; 37. From Lanczos to Gauss quadrature; 38. Conjugate gradients; 39. Biorthogonalization methods; 40. Preconditioning; Appendix; Notes; Bibliography; Index.
+Ⅰ部分 基础
+第1讲 矩阵向量乘法 3
+第2讲 正交向量和矩阵 10
+第3讲 范数 15
+第4讲 奇异值分解 22
+第5讲 SVD的进一步讨论 28
+第Ⅱ部分 QR因子分解和最小二乘
+第6讲 投影算子 35
+第7讲 QR因子分解 41
+第8讲 格拉姆施密特正交化 48
+第9讲 MATLAB 53
+第10讲 豪斯霍尔德三角形化 58
+第11讲 最小二乘问题 66
+第Ⅲ部分 条件和稳定性
+第12讲 条件和条件数 77
+第13讲 浮点运算 84
+第14讲 稳定性 88
+第15讲 稳定性的进一步讨论 93
+第16讲 豪斯霍尔德三角形化的稳定性 98
+第17讲 回代的稳定性 104
+第18讲 最小二乘问题的条件 112
+第19讲 最小二乘算法的稳定性 119
+第Ⅳ部分 方程组
+第20讲 高斯消元法 129
+第21讲 选主元 137
+第22讲 高斯消元法的稳定性 144
+第23讲 楚列斯基因子分解 151
+第Ⅴ部分 特征值
+第24讲 特征值问题 159
+第25讲 特征值算法综述 167
+第26讲 约化到海森伯格型或三对角型 172
+第27讲 瑞利商，逆迭代 177
+第28讲 无位移的QR算法 184
+第29讲 带位移的QR算法 191
+第30讲 其他的特征值算法 196
+第31讲 计算SVD 204
+第Ⅵ部分 迭代法
+第32讲 迭代法综述 213
+第33讲 阿诺尔迪迭代 219
+第34讲 用阿诺尔迪迭代求特征值 224
+第35讲 GMRES 232
+第36讲 兰乔斯迭代 240
+第37讲 由兰乔斯到高斯求积 247
+第38讲 共轭梯度法 254
+第39讲 双正交化方法 263
+第40讲 预处理 272
+附录 数值分析的定义 278
+注记 283
+参考文献 294
+索引 304
